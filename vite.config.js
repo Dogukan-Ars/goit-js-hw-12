@@ -10,7 +10,7 @@ export default defineConfig(({ command }) => {
     define: {
       [isBuild ? '_global' : 'global']: {},
     },
-    base: isBuild ? '/goit-js-hw-11/' : '/',
+    base: isBuild ? '/goit-js-hw-12/' : '/',
     root: 'src',
     build: {
       sourcemap: true,
